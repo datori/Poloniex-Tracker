@@ -1,0 +1,22 @@
+{
+  "name": "poloniex-tracker",
+  "version": "1.0.0",
+  "description": "Track specific values from Poloniex.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel75027/Poloniex-Tracker.git"
+  },
+  "author": "Daniel Serratore <daniel75027@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel75027/Poloniex-Tracker/issues"
+  },
+  "homepage": "https://github.com/daniel75027/Poloniex-Tracker#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
