@@ -11,7 +11,6 @@ function getJSON(url){
         res.setEncoding('utf8');
         res.on('data', (data) => {
             collection.push(data);
-            console.log(data + '\n');
         });
         res.on('end', () => {
             book = JSON.parse(collection.join(''));
